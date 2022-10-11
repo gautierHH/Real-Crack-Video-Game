@@ -1,0 +1,219 @@
+body, div {
+	margin-left: 40px;
+	padding: 0;
+    font-family: Comic Sans MS; 
+    font-size: 18px;
+}
+body { 
+	background-color: rgb(128, 82, 255);
+	text-align: left; 
+}
+
+/*entête*/
+
+.entete{
+	padding: 2px;
+	background-color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
+    float: left;
+	height: 100px;
+	width: 1541px;
+	margin-top: -20px;
+	margin-left: -45px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-attachment: fixed;
+
+}
+.bouttons {
+	background-attachment: fixed;
+}
+
+/*barre de recherche*/ 
+
+.container{
+	width: 60%;
+	margin: -55px auto;
+}
+
+.input{
+	font-size: 25px;
+	width: 80%;
+}
+
+.suggestion{
+	font-size: 22px;
+	margin-left: -40px;
+	width: 60%;
+	color: #ffff;
+}
+
+.suggestion:hover{
+	background-color: cornflowerblue;
+	color: #ffff;
+}
+
+/*url*/
+
+.url{
+	color: rgb(255, 255, 255);
+}
+
+#acceuil{
+	color: red;
+	background-attachment: fixed;
+	margin-left: 1300px;
+	margin-top: -65px;
+}
+
+#acceuil span{
+	color: red;
+	text-decoration: underline black;
+}
+
+#jeux{
+	color: red;
+	background-attachment: fixed;
+	margin-left: 1390px;
+	margin-top: -51px;
+
+}
+
+#jeux span{
+	color: red;
+	text-decoration: underline black;
+}
+
+.input{
+	background-attachment: local;
+	padding: auto;
+}
+
+#titre {
+	text-align : center;
+	text-size-adjust: auto;
+}
+
+#img{
+	background-attachment: local;
+	margin-left: -2px;
+	margin-top: 4px;
+}
+
+/*milieux*/
+
+.milieux{
+	background-attachment: local;
+	width: 1250px;
+	size-adjust: auto;
+}
+
+#titre{
+	color: black;
+	width: 100%;
+	
+}
+
+/*bas de page */
+
+#hypertext-couleur span{
+	color: rgb(191, 71, 255);
+}
+
+#textbas{
+	padding: 2px;
+	color: rgb(191, 71, 255);
+	background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(255, 255, 255);
+	text-align: center;
+	height: 90px;
+	width: 1540px;
+	margin-top: 248px;
+	margin-left: -45px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+/* modal boutons et animations */
+
+.modal-btn {
+  padding: 10px 14px;
+  font-size: 18px;
+  margin: 100px auto;
+  display: block;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.modal-container {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: visibility 0.4s;
+}
+.modal-container.active {
+  visibility: visible;
+}
+
+.overlay {
+  position: absolute;
+  margin-left: -80px;
+  width: 100%;
+  height: 100%;
+  background: #333333ea;
+  transition: opacity 0.4s 0.2s ease-out;
+}
+.modal-container.active .overlay {
+  opacity: 1;
+  transition: opacity 0.4s ease-out;
+}
+
+.modal {
+  opacity: 0;
+  width: 100%;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, calc(-50% - 50px));
+  transition: opacity 0.4s ease-out,
+  transform 0.4s ease-out;
+}
+
+.modal-container.active .modal {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s 0.2s ease-out,
+  transform 0.4s 0.2s ease-out;
+}
+
+.close-modal {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: #ff365e;
+  color: #fff;
+}
+.modal h1 {
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+.modal p {
+  line-height: 1.4;
+  margin-bottom: 5px;
+}

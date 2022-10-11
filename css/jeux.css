@@ -1,0 +1,178 @@
+body, div {
+	margin-left: 40px;
+	padding: 0;
+    font-family: Comic Sans MS; 
+    font-size: 18px;
+}
+body { 
+	background-color: rgb(128, 82, 255);
+}
+
+/*entête*/
+
+.entete{
+	padding: 2px;
+	background-color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
+    float: left;
+	height: 100px;
+	width: 1541px;
+	margin-top: -20px;
+	margin-left: -45px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-attachment: fixed;
+
+}
+.bouttons {
+	background-attachment: fixed;
+}
+
+/*barre de recherche*/ 
+
+.container{
+	width: 60%;
+	margin: -55px auto;
+}
+
+.input{
+	font-size: 25px;
+	width: 80%;
+}
+
+.suggestion{
+	font-size: 22px;
+	margin-left: -40px;
+	width: 60%;
+	color: #ffff;
+}
+
+.suggestion:hover{
+	background-color: cornflowerblue;
+	color: #ffff;
+}
+
+/*url*/
+
+.url{
+	position: relative;
+	color: rgb(255, 255, 255);
+}
+
+#acceuil{
+	position: relative;
+	color: red;
+	background-attachment: fixed;
+	margin-left: 1300px;
+	margin-top: -65px;
+}
+
+#acceuil span{
+	color: red;
+	text-decoration: underline black;
+}
+
+#jeux{
+	position: relative;
+	color: red;
+	background-attachment: fixed;
+	margin-left: 1390px;
+	margin-top: -51px;
+
+}
+
+#jeux span{
+	color: red;
+	text-decoration: underline black;
+}
+
+.input{
+	position: relative;
+	background-attachment: local;
+	padding: auto;
+}
+
+#img{
+	position: relative;
+	background-attachment: local;
+	margin-left: -2px;
+	margin-top: 4px;
+}
+
+/*milieux*/
+
+.milieux{
+	padding: 2px;
+	height: 100px;
+	width: 800px;
+}
+
+#titre{
+	top: -185px;
+	left: 20px;
+	height: 100px;
+	width: 800px;
+	color: black;
+	width: 100%;
+	text-align: center;
+}
+
+#titre span{
+	color: black;
+	text-decoration: underline white;
+}
+
+#farming{
+	background-attachment: fixed;
+	margin-left: -620px;
+	margin-top: -4px;
+}
+
+#farming22{
+	color: black;
+	text-decoration: underline rgb(255, 255, 255);
+}
+
+#fs22-texte{
+	background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(255, 255, 255);
+	border-radius: 0px;
+    margin-left: 180px;
+	margin-top: 150px;
+	height: 103px;
+	width: 800px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-attachment: local;
+}
+
+#texte{
+	margin-left: 150px;
+	margin-top: -110px;
+}
+
+
+/*bas de page */
+
+#href{
+	padding: 2px;
+	color: rgb(191, 71, 255);
+	background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(255, 255, 255);
+	text-align: center;
+	margin-inline: -38px;
+	top: 323px;
+	left: -30px;
+	position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+#href-color span{
+	color: rgb(191, 71, 255);
+	text-decoration: underline white;
+}
